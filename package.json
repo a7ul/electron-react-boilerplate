@@ -1,7 +1,7 @@
 {
-    "name": "aplayer",
+    "name": "MyApp",
     "version": "1.0.0",
-    "description": "music player for hackers",
+    "description": "Boilerplater for Electron based React app with web & hotreload support",
     "main": "index.js",
     "scripts": {
         "test": "NODE_ENV='test' mocha test --recursive --require babel-core/register",
@@ -12,8 +12,8 @@
         "build-web":"WEBPACK_TARGET='web' webpack -p && open index.html",
         "lint": "eslint --ext js --ext jsx app test",
         "sasslint": "sass-lint 'app/**/*.scss' -v -q",
-        "package-win": "WEBPACK_TARGET='electron' webpack -p && electron-packager ./ VG --platform=win32 --arch=x64 --out ~/Desktop/VG-Windowsx86 --version 0.37.8",
-        "package-darwin": "WEBPACK_TARGET='electron' webpack -p && electron-packager ./ VG --platform=darwin --arch=x64 --out ~/Desktop/VG-Macx86 --version 0.37.8"
+        "package-win": "WEBPACK_TARGET='electron' webpack -p && electron-packager ./ MyApp --platform=win32 --arch=x64 --out ~/Desktop/MyApp-Windowsx86 --version 0.37.8",
+        "package-darwin": "WEBPACK_TARGET='electron' webpack -p && electron-packager ./ MyApp --platform=darwin --arch=x64 --out ~/Desktop/MyApp-Macx86 --version 0.37.8"
     },
     "author": "Atul R <atulanand94@gmail.com> (http://atulr.com)",
     "license": "ISC",

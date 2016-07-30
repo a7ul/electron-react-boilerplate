@@ -17,19 +17,14 @@ let iconPath = '';
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow = null;
 let tray = null;
-if (process.platform === 'darwin') {
-  iconPath = path.resolve(__dirname, 'app/assets/electron/app.png');
-}
-if (process.platform === 'win32') {
-  iconPath = path.resolve(__dirname, 'app/assets/electron/vg_icon.ico');
-}
+
+iconPath = path.resolve(__dirname, 'app/assets/electron/tray.png');
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    title: 'APlayer',
+    title: 'MyApp',
     resizable: true,
     // alwaysOnTop: true,
-    icon: __dirname + 'app/assets/electron/vg_icon.ico',
     frame: true
   });
   // and load the index.html of the app.

@@ -1,4 +1,4 @@
-#APlayer
+#MyApp
 
 Steps:
 
