@@ -1,9 +1,9 @@
-#MyApp
+# electron-react-boilerplater
+An electron / web app boiler plate with hot reload and packaging support
+
 
 Steps:
-
 1.npm install
-
 2.npm start
 
 
@@ -18,3 +18,4 @@ npm scripts:
 "package-win": "bundles app in production mode and builds win app with all code bundled",
 "package-darwin": "bundles app in production mode and builds mac app with all code bundled"
 ```
+=======
