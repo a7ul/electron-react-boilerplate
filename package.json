@@ -1,0 +1,11 @@
+{
+  "name": "aplayer",
+  "version": "1.0.0",
+  "description": "music player for hackers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atul R <atulanand94@gmail.com> (http://atulr.com)",
+  "license": "ISC"
+}
