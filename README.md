@@ -1,4 +1,4 @@
-# electron-react-boilerplater
+# electron-react-boilerplate
 An electron / web app boiler plate with hot reload and packaging support
 
 
