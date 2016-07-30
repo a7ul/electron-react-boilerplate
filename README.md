@@ -1,9 +1,17 @@
 # electron-react-boilerplate
 An electron / web app boiler plate with hot reload and packaging support
 
+Features:
+---------
+
+1.Has Live reload 
+
+2.Packaging for Windows and Mac
+
+3.React/Redux ready
 
 Steps:
-
+------
 1. npm install
 
 2. npm start
