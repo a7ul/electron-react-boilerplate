@@ -3,8 +3,10 @@ An electron / web app boiler plate with hot reload and packaging support
 
 
 Steps:
-1.npm install
-2.npm start
+
+1. npm install
+
+2. npm start
 
 
 npm scripts:
